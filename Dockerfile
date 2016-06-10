@@ -1,6 +1,4 @@
 FROM java:7-jre
-ENV http_proxy http://sipoma:1Lavoro\!@10.68.64.37:8081/
-ENV https_proxy https://sipoma:1Lavoro\!@10.68.64.37:8081/
 
 ENV CATALINA_HOME /usr/local/tomcat
 ENV PATH $CATALINA_HOME/bin:$PATH
